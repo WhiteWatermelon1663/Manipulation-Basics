@@ -47,3 +47,5 @@ Mind that theese cant set stats, that have the prefix "MPPLY_" because the wrapp
 You can make a wrapper function, that detects if the passed statName contains "MPPLY", and if it does then it does not add the prefix "MPx_"
 
 Some stats are srver authoritative, that means you cannot edit them, but you can read from them.
+
+Thats the basics of stat reading and writing.
