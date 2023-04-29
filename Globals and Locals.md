@@ -38,7 +38,7 @@ The `PLAYER::PLAYER_ID()` has to be for the Lua API that you are working with, f
 
 Converting globals goes like this:
 
-![image](https://user-images.githubusercontent.com/132128937/235295118-cacc2930-4759-4f62-81ed-b60e3fe06868.png)
+![image](https://user-images.githubusercontent.com/132128937/235306087-1a2dd8a8-c784-4c04-abfd-eaa0610d4413.png)
   
  So it would look something like this:
  
