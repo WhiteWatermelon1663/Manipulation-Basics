@@ -1,4 +1,4 @@
-Hi!
+Sup!
 
 You will need a code editor for this, I suggest Visual Studio: https://code.visualstudio.com/
 
