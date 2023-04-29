@@ -16,11 +16,11 @@ These script globals and locals can change if the game updates, but its not that
 
 Script globals have 2 types of globals. Tunable globals and normal globals
 
-Tunable globals look like: "Global_262145.f_26154", because they have the "262145" prefix, this prefix can change with updates as well.
+Tunable globals look like: `Global_262145.f_26154`, because they have the `262145` prefix, this prefix can change with updates as well.
 
-To find those script globals or locals you would need to get the game scripts. For now you can download the scripts at:
+To find those script globals or locals you would need to get the game scripts.
 
-https://github.com/root-cause/v-decompiled-scripts
+For now you can download the scripts from: https://github.com/root-cause/v-decompiled-scripts
 
 A script global is shared across game scripts, a script local is not.
 
@@ -28,11 +28,11 @@ Keep in mind, that these game scipts update. So you would need to download the s
 
 Now that you have the decompiled scripts, you can open up freemode.c.
 
-You can search for script globals with the "Global_" prefix before numbers, like: "Global_2657589[PLAYER::PLAYER_ID() /*466*/].f_321"
+You can search for script globals with the "Global_" prefix before numbers, like: `Global_2657589[PLAYER::PLAYER_ID() /*466*/].f_321`
 
 For this example, I will be using the Cherax LUA engine.
 
-Since you cannot just paste "Global_2657589[PLAYER::PLAYER_ID() /*466*/].f_321" into the API function, you will need to convert it.
+Since you cannot just paste `Global_2657589[PLAYER::PLAYER_ID() /*466*/].f_321` into the API function, you will need to convert it.
 
 The `PLAYER::PLAYER_ID()` has to be for the Lua API that you are working with, for Cherax it is `PLAYER.PLAYER_ID()`, for Stand it is `players.user()`
 
@@ -65,7 +65,7 @@ B stands for Boolean (SCRIPT.SET_GLOBAL_B)
 
 And to read a global it is even easier:
 
-`SCRIPT.GET_GLOBAL_I(int global)`
+`SCRIPT.GET_GLOBAL_I(int global)` <br>
 `local valueOfGlobal = SCRIPT.GET_GLOBAL_I(2657589 + 1 + PLAYER.PLAYER_ID() * 466 + 321)`
 
 Now lets move onto script locals. Script locals are only readable and writable in a game script.
@@ -79,14 +79,14 @@ To read a script local, the script needs to be running.
 
 So for Cherax Lua API, I can read script local like this:
 
-`SCRIPT.SET_LOCAL_I(Hash script, int local, int value)`
+`SCRIPT.SET_LOCAL_I(Hash script, int local, int value)` <br>
 `SCRIPT.SET_LOCAL_I(g_util.joaat("freemode"), 69, 420)`
 
 For Cherax Lua API you need to joaat (jenkins one at a time) the string first with `g_util.joaat(string)`, but with other Lua API's you might not.
 
 To read a script local is same as reading a script global:
 
-`SCRIPT.GET_LOCAL_I(Hash script, int local`
+`SCRIPT.GET_LOCAL_I(Hash script, int local` <br>
 `local valueOfLocal = SCRIPT.GET_LOCAL_I(g_util.joaat("freemode"), 69)`
 
 Thats the basics of script global and script local reading and editing.
