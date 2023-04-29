@@ -30,7 +30,7 @@ Now that you have the decompiled scripts, you can open up freemode.c.
 
 You can search for script globals with the "Global_" prefix before numbers, like: `Global_2657589[PLAYER::PLAYER_ID() /*466*/].f_321`
 
-For this example, I will be using the Cherax LUA engine.
+For this example, I will be using the Cherax Lua API: https://docs.cherax.vip/lua-documentation/api-reference/natives/script
 
 Since you cannot just paste `Global_2657589[PLAYER::PLAYER_ID() /*466*/].f_321` into the API function, you will need to convert it.
 
