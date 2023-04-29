@@ -9,16 +9,16 @@ Name                - The string name of the stat value. Has to be unique. Max S
 Type                - The type of this stat. Possible values are:
                         .. Possible values are:
                            .. Type = "float"  - C++ Float. (1.175494351*10^-38	3.402823466*10^38)
-                           .. Type = "int"    - C++ Integer. (-2147483648 to 2147483647)
-                           .. Type = "bool"   - C++ Boolean. (0 or 1 / false or true)
-                           .. Type = "label"  - C++ Integer. (-2147483648 to 2147483647)
+                           .. Type = "int"    - C++ Signed Integer 4 bytes. (-2147483648 to 2147483647)
+                           .. Type = "bool"   - C++ Boolean 2 byte. (0 or 1 / false or true)
+                           .. Type = "label"  - C++ Signed Integer 4 byte. (-2147483648 to 2147483647)
                            .. Type = "string" - C++ String. (string)
-                           .. Type = "u8"     - C++ Unsigned Integer 8 bytes. (0 to 255)
-                           .. Type = "u16"    - C++ Unsigned Integer 16 bytes. (0 to 65,535)
-                           .. Type = "u32"    - C++ Unsigned Integer 32 bytes. (0 to 4,294,967,295)
-                           .. Type = "u64"    - C++ Unsigned Integer 64 bytes. (0 to 18,446,744,073,709,551,615)
-                           .. Type = "date"   - C++ Unsigned Integer 64 bytes used in script for dates. (-2147483648 to 2147483647)
-                           .. Type = "pos"    - C++ Unsigned Integer 64 bytes used in script for map positions. (-2147483648 to 2147483647)
+                           .. Type = "u8"     - C++ Unsigned Integer 1 bytes. (0 to 255)
+                           .. Type = "u16"    - C++ Unsigned Integer 2 bytes. (0 to 65,535)
+                           .. Type = "u32"    - C++ Unsigned Integer 4 bytes. (0 to 4,294,967,295)
+                           .. Type = "u64"    - C++ Unsigned Integer 8 bytes. (0 to 18,446,744,073,709,551,615)
+                           .. Type = "date"   - C++ Unsigned Integer 8 bytes used in script for dates. (-2147483648 to 2147483647)
+                           .. Type = "pos"    - C++ Unsigned Integer 8 bytes used in script for map positions. (-2147483648 to 2147483647)
                            .. Type = "userid" - C++ String. (string)
 online              - "true" if the stat is a multiplayer stat. "false" if it is a single player stat.
 profile             - "true" if the stat is a Profile Stat.
