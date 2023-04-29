@@ -56,12 +56,13 @@ In conclusion:
 
 So now you can edit that global to whatever value you desire, editing for Cherax goes like this:
 
-`SCRIPT.SET_GLOBAL_I(int global, int value)`
+`SCRIPT.SET_GLOBAL_I(int global, int value)` <br>
 `SCRIPT.SET_GLOBAL_I(2657589 + 1 + PLAYER.PLAYER_ID() * 466 + 321, 69)`
 
-I stands for Integer (SCRIPT.SET_GLOBAL_I) <br>
-F stands for Float (SCRIPT.SET_GLOBAL_F) <br>
-B stands for Boolean (SCRIPT.SET_GLOBAL_B) <br>
+For Cherax Lua API, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I stands for Integer (SCRIPT.SET_GLOBAL_I) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F stands for Float (SCRIPT.SET_GLOBAL_F) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B stands for Boolean (SCRIPT.SET_GLOBAL_B) <br>
 
 And to read a global it is even easier:
 
