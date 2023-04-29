@@ -15,11 +15,11 @@ Now you select "Windows" from "Grand Theft Auto V", and let it do its job.
 
 If OpenIV stops responing and freezes, you can just try again.
 
-Now you should be on this window, but yours may differ, doesent really matter
+Now you should be on this window, but yours may differ, doesent really matter.
 
 ![image](https://user-images.githubusercontent.com/132128937/235315074-e5d09ce1-babd-4735-aa1a-61b1eea93c8e.png)
 
-Now press Ctrl + F3 to bring up the search menu, and search for "mpstats"
+Now press Ctrl + F3 to bring up the search menu, and search for "mpstats".
 
 ![image](https://user-images.githubusercontent.com/132128937/235315408-b9a2e886-65a2-4a5e-bd0f-ae81ad760009.png)
 
