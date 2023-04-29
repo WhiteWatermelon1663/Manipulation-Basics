@@ -34,9 +34,7 @@ Since you cannot just paste "Global_2657589[PLAYER::PLAYER_ID() /*466*/].f_321" 
 
 Converting globals goes like this:
 
-  Global_2657589[PLAYER::PLAYER_ID() /*466*/].f_321
-    ⬆️         ⬆️       ⬆️          ⬆️      ⬆️
- dissapears   + 1     player id      *        +
+![image](https://user-images.githubusercontent.com/132128937/235295118-cacc2930-4759-4f62-81ed-b60e3fe06868.png)
   
  So it would look something like this:
  
