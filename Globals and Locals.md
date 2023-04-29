@@ -59,9 +59,9 @@ So now you can edit that global to whatever value you desire, editing for Cherax
 `SCRIPT.SET_GLOBAL_I(int global, int value)`
 `SCRIPT.SET_GLOBAL_I(2657589 + 1 + PLAYER.PLAYER_ID() * 466 + 321, 69)`
 
-I stands for Integer (SCRIPT.SET_GLOBAL_I)
-F stands for Float (SCRIPT.SET_GLOBAL_F)
-B stands for Boolean (SCRIPT.SET_GLOBAL_B)
+I stands for Integer (SCRIPT.SET_GLOBAL_I) <br>
+F stands for Float (SCRIPT.SET_GLOBAL_F) <br>
+B stands for Boolean (SCRIPT.SET_GLOBAL_B) <br>
 
 And to read a global it is even easier:
 
