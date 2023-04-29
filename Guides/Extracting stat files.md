@@ -29,7 +29,7 @@ You can create a new folder for them to be extracted to.
 
 ![image](https://user-images.githubusercontent.com/132128937/235315492-7a37378e-bffe-41e9-995f-9134d26e7993.png)
 
-Now it would look something like this:
+Now it should look something like this:
 
 ![image](https://user-images.githubusercontent.com/132128937/235315628-4a809356-f0d0-4ff5-a017-d76eaa2ab9e1.png)
 
