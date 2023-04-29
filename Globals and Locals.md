@@ -32,6 +32,8 @@ For this example I will be using the Cherax LUA engine.
 
 Since you cannot just paste "Global_2657589[PLAYER::PLAYER_ID() /*466*/].f_321" into the API function, you will need to convert it.
 
+The PLAYER::PLAYER_ID() has to be for the Lua API that you are working with, for Cherax it is PLAYER.PLAYER_ID(), for Stand it is players.user()
+
 Converting globals goes like this:
 
 ![image](https://user-images.githubusercontent.com/132128937/235295118-cacc2930-4759-4f62-81ed-b60e3fe06868.png)
@@ -47,4 +49,5 @@ In conclusion:
   <li>"[", add one (x + 1 + y)</li>
   <li>"/*" = multiply it (x * y)</li>
   <li>"*/]" = remove it</li>
+  <li>"PLAYER::PLAYER_ID()" = Appropriate for API</li>
 </ul>
