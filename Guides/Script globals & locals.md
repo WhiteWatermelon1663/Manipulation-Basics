@@ -1,8 +1,6 @@
 Sup!
 
-You will need a code editor for this, I suggest Visual Studio: https://code.visualstudio.com/
-
-Let me show you how to edit and read script globals and script locals.
+Let me tell you how to edit and read script globals and script locals.
 
 First you need to know what are script globals and script locals.
 
