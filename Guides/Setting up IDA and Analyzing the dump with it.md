@@ -11,14 +11,13 @@ Go and download IDA Freeware.
 
 IDA Freeware: https://hex-rays.com/ida-free/#download
 
-And download the sigmaker plugins. (you will need this later, but in this guide)
+And download the sigmaker plugins. (you will need this later, but not in this guide).
 
 Sigmaker: https://github.com/WhiteWatermelon1663/Manipulation-Basics/tree/main/Guide%20Resources/Sigmaker
 
-Download both sigmaker.dll and sigmaker64.dll
+Download both sigmaker.dll and sigmaker64.dll.
 
 Now that you have downloaded IDA and the dlls, go to IDA's file directory (where you download IDA to)
-
 and drag the two sigmaker dlls into the plugins folder.
 
 ![image](https://user-images.githubusercontent.com/132128937/235344268-66c12fbb-ae50-4371-8308-ebbec44e07a5.png)
@@ -31,7 +30,7 @@ Now disassemble a new file.
 
 ![image](https://user-images.githubusercontent.com/132128937/235343527-899867dc-37c0-4027-9bbf-e90923ada74f.png)
 
-Then open the dump, that you saved of the game. Should be named "GTA5_dump.exe", open it with IDA. And press Ok
+Then open the dump, that you saved of the game. Should be named "GTA5_dump.exe", open it with IDA. And press "Ok".
 
 ![image](https://user-images.githubusercontent.com/132128937/235343951-707223d2-19ab-4ec2-97ad-c2657369330e.png)
 
@@ -44,11 +43,11 @@ If you have the goofy aah white theme, then you can change it to gigachad dark t
 
 ![image](https://user-images.githubusercontent.com/132128937/235344144-bc9ae2cf-33e2-47ae-b6f3-f6ef877a1716.png)
 
-And turn that to "dark"
+And turn that to "dark".
 
 ![image](https://user-images.githubusercontent.com/132128937/235344171-a2c8a05c-e983-4483-991f-ef9b8f65471d.png)
 
-And press "Apply" and "Ok"
+And press "Apply" and "Ok".
 
 Now you got rid of the cringe white theme, you can check if you have the sigmaker plugin installed, 
 by goind to Edit > Plugins > SigMaker.
@@ -64,17 +63,17 @@ because text view is simply better.
 
 ![image](https://user-images.githubusercontent.com/132128937/235345045-35b25f19-f0ac-4100-9848-0f6461b48d28.png)
 
-Now lets make the opcodes visible, by going to Options > General... > Disassembly > Number of opcode bytes (non-graph) and set it to 10
+Now lets make the opcodes visible, by going to Options > General... > Disassembly > Number of opcode bytes (non-graph) and set it to 10.
 
 ![image](https://user-images.githubusercontent.com/132128937/235348915-88bbbe84-cadc-4d9e-941a-fe4dbf061a04.png)
 
 ![image](https://user-images.githubusercontent.com/132128937/235348979-b8f4e23e-83f3-4c00-9054-251d2f015119.png)
 
-Now wait until this says Idle.
+Now you just need to wait until the AU(Autoanalysis Update) says "idle".
 
 ![image](https://user-images.githubusercontent.com/132128937/235344733-4499c26d-3ffc-424e-9d70-3b22e31c33b1.png)
 
-It should look like this
+It should look like this:
 
 ![image](https://user-images.githubusercontent.com/132128937/235348657-4579888f-9d53-4d36-b4a3-94246019d1c1.png)
 
