@@ -16,11 +16,11 @@ if you ran x96dbg.exe, then choose x64dbg mode.
 
 Also say yes to the questions on first launch of x64dbg.
 
-If you dont have the game running, then start it and be in **SINGEL PLAYER**
+If you dont have the game running, then start it and be in **SINGLE PLAYER**
 
-MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!<br>
-MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!<br>
-MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!<br>
+MAKE SURE YOU ARE IN SINGLE PLAYER!!! DONT DO IT IN ONLINE!<br>
+MAKE SURE YOU ARE IN SINGLE PLAYER!!! DONT DO IT IN ONLINE!<br>
+MAKE SURE YOU ARE IN SINGLE PLAYER!!! DONT DO IT IN ONLINE!<br>
 
 Now click this little "S" icon at the top.
 
