@@ -12,7 +12,7 @@ and all of the characters make up a bigger pattern, with signatures, it's basica
 When the developers write code, and compiles their code. We can see the patterns of the code. If we get these patterns of the code, we can refrence back to it.
 But if the developers code changes, so does the patter, so you need to update patters aswell.
 There are wildcards in patterns aswell, a wildcard is basically a section of a patter, that can change its value. A wildcard
-is normally represented as a question mark in the pattern, e.g. : "E8 ? ? ? ? 83 25 ? ? ? ? ? F3 0F".
+is normally represented as a question mark in the pattern, e.g. "E8 ? ? ? ? 83 25 ? ? ? ? ? F3 0F".
 All of those question marks can change its value.
 Luckily the plugin we are about to install detects the wildcards and does the job for us.
 
