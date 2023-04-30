@@ -2,7 +2,7 @@ Sup!
 
 You can extract stat files yourself, so you dont need to rely on other people anymore.
 
-For this you **NEED** OpenIV, if you dont already have this installed, you can install it from:
+For this you need OpenIV, if you dont already have this installed, you can install it from:
 https://github.com/WhiteWatermelon1663/Manipulation-Basics/blob/main/Guide%20Resources/OpenIV/OpenIV.md
 
 Make sure you have GTAV closed, as it might interfere with OpenIV.
