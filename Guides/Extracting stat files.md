@@ -39,7 +39,7 @@ And you can delete all the files that have the size of 1kb, because they are emp
 
 Now you are left with some files, they contain all of the stats that you will ever need.
 
-I recomend you read thru the "READ THIS BEFORE STARTING" that "mpstatssetup(1).xml" typically has.
+I recommend you read through the "READ THIS BEFORE STARTING" that "mpstatssetup(1).xml" typically contains.
 If you cant find it, I left it in:
 https://github.com/WhiteWatermelon1663/Manipulation-Basics/blob/main/Guide%20Resources/Stat%20Files/Stat%20File%20Read%20Me.md
 
