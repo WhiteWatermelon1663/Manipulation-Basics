@@ -107,3 +107,59 @@ g_logger.log_info(b)
 local gameBuild = g_memory.read_string(b)
 g_logger.log_info(gameBuild)
 ```
+That was how you make a sig manually, but now lets do it with the plugin.
+
+Select some bytes:
+
+![image](https://user-images.githubusercontent.com/132128937/235361498-462cc14b-11ac-4782-9a55-ea174e208ee7.png)
+
+Open up the sigmaker plugin.
+
+![image](https://user-images.githubusercontent.com/132128937/235361529-fdc66b13-d346-4325-b5a1-27e5d71c0335.png)
+
+And press Auto create ida pattern.
+
+![image](https://user-images.githubusercontent.com/132128937/235361567-cdfdd82a-8000-4165-b84c-ad888651a585.png)
+
+For me it created this long signature, with a offset. I dont recomend using this long signature, because its so long, and the offset is big.
+The 
+
+![image](https://user-images.githubusercontent.com/132128937/235361756-ac6bf188-3cf6-4d9d-beb9-ea062de753f2.png)
+
+So select a bigger area, and make a signature again.
+
+Now it created a even shorted signature, with no offset even.
+
+![image](https://user-images.githubusercontent.com/132128937/235361888-129ceedf-351c-4a9a-9d18-9096af7576f1.png)
+
+But the trick is, you need to calculate your own offset. Because I said that the pattern scanner returns the start address of a pattern.
+Then you will need to calculate the offset. I will show you the easiest way with IDA pro.
+
+![image](https://user-images.githubusercontent.com/132128937/235361420-59427e63-bf2c-4f74-b4a8-cf8a36ae7f05.png)
+
+Get the Y part of the address, here it is 7FF686FE1F4D,
+Get the X part of the address, here it is 7FF686FE1F13,
+Get the Z part of bytes, here it is 3 (because "4C 8D 0D" is 3 bytes)
+
+Subract Y - X in hex, wich is 7FF686FE1F4D - 7FF686FE1F13 = 3A
+
+and add decimal 3 to hex 3A, wich is 3 + 3A = 3D
+
+If the number of bytes is bigger than 9, then you will need to convert the decimal number of bytes to the hexidecimal value.
+
+3D = 61
+
+So the distance between the pattern start address and the end of the address is 61 bytes.
+
+So now you can add the 61 to the scanned pattern.
+
+```lua
+local a = g_memory.scan_pattern("48 8D 0D ? ? ? ? B2 01 E8 ? ? ? ? BB ? ? ? ? ")
+g_logger.log_info(a)
+local b = g_memory.rip(a + 0x3D)
+g_logger.log_info(b)
+local gameBuild = g_memory.read_string(b)
+g_logger.log_info(gameBuild)
+```
+
+That is the basics of pattern scanning.
