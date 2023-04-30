@@ -137,6 +137,8 @@ Then you will need to calculate the offset. I will show you the easiest way with
 
 ![image](https://user-images.githubusercontent.com/132128937/235361420-59427e63-bf2c-4f74-b4a8-cf8a36ae7f05.png)
 
+The spot where you can see "START" is the start of the signature the sigmaker made.
+
 Get the Y part of the address, here it is 7FF686FE1F4D,
 Get the X part of the address, here it is 7FF686FE1F13,
 Get the Z part of bytes, here it is 3 (because "4C 8D 0D" is 3 bytes)
