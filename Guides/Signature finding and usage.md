@@ -122,7 +122,6 @@ And press Auto create ida pattern.
 ![image](https://user-images.githubusercontent.com/132128937/235361567-cdfdd82a-8000-4165-b84c-ad888651a585.png)
 
 For me it created this long signature, with a offset. I dont recomend using this long signature, because its so long, and the offset is big.
-The.
 
 ![image](https://user-images.githubusercontent.com/132128937/235361756-ac6bf188-3cf6-4d9d-beb9-ea062de753f2.png)
 
