@@ -20,6 +20,6 @@ Also say yes to the questions on first launch of x64dbg.
 
 If you dont have the game running, then start it and be in <span style="color:red;">SINGEL PLAYER</span>
 
-<span style="color:red;">MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!</span>
-<span style="color:red;">MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!</span>
-<span style="color:red;">MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!</span>
+<span style="color:red;">MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!</span> <br>
+<span style="color:red;">MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!</span> <br>
+<span style="color:red;">MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!</span> <br>
