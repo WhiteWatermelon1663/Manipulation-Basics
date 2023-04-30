@@ -6,8 +6,6 @@ Download the newest snapshot of x64dbg.
 
 x64dbg: https://x64dbg.com/
 
-Scylla.dll: https://github.com/WhiteWatermelon1663/Manipulation-Basics/tree/main/Guide%20Resources/Scylla
-
 <span style="color:red;">MAKE SURE YOU DONT HAVE ANY MOD MENUS INJECTED! THEY WILL CLOSE IF YOU RUN X64DBG.</span>
 <span style="color:red;">X64DBG IS CONSIDERED AS A DEBUGGER TOOL AND MENUS DO NOT LIKE THAT!</span>
 
@@ -27,6 +25,15 @@ MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!<br>
 Now click this little "S" icon at the top.
 
 ![Screenshot 2023-04-30 105657](https://user-images.githubusercontent.com/132128937/235342321-f639c69e-da7d-44a4-b314-2039615b99a5.png)
+
+If for some reason there is no "S" icon there, then you will need to install the Scylla.dll manually.
+If you have the "S" icon, then skip this.
+
+You can download the dll at https://github.com/WhiteWatermelon1663/Manipulation-Basics/tree/main/Guide%20Resources/Scylla
+
+and drag the Scylla.dll into the "x64dbg\release\x64" directory. It should look something like this:
+
+![image](https://user-images.githubusercontent.com/132128937/235342670-f3880e68-24da-4072-b5ce-8d3b68477150.png)
 
 Now click this drop down box.
 
