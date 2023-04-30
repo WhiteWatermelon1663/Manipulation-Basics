@@ -14,7 +14,7 @@ But if the developers code changes, so does the patter, so you need to update pa
 There are wildcards in patterns aswell, a wildcard is basically a section of a patter, that can change its value. A wildcard
 is normally represented as a question mark in the pattern, e.g. "E8 ? ? ? ? 83 25 ? ? ? ? ? F3 0F".
 All of those question marks can change its value.
-Luckily the plugin we are about to install detects the wildcards and does the job for us.
+Luckily the plugin we are about to use detects the wildcards and does the job for us.
 
 If a signature is too short, then it could be found elsewhere in the game,
 and too long of signatures might get broken more often after game updates.
