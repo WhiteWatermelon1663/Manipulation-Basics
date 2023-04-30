@@ -15,7 +15,7 @@ Now you select "Windows" from "Grand Theft Auto V", and let it do its job.
 
 If OpenIV stops responding and freezes, you can just try again.
 
-Now you should be on this window, but yours may differ, doesent really matter.
+Now you should be on this window, but yours may differ, doesn't really matter.
 
 ![image](https://user-images.githubusercontent.com/132128937/235315074-e5d09ce1-babd-4735-aa1a-61b1eea93c8e.png)
 
