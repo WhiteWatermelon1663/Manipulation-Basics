@@ -61,7 +61,7 @@ Now click on "SigMaker" and a window like this should pop up:
 And if you have this goofy ahh "Graph Mode" then you can go to "Text View" by right clicking somewhere and pressing "Text view",
 because text view is simply better.
 
-![image](https://user-images.githubusercontent.com/132128937/235345045-35b25f19-f0ac-4100-9848-0f6461b48d28.png)
+![image](https://user-images.githubusercontent.com/132128937/235350482-1e2865a5-0d05-4437-a336-5ae6f48ca60d.png)
 
 Now lets make the opcodes visible, by going to Options > General... > Disassembly > Number of opcode bytes (non-graph) and set it to 10.
 
