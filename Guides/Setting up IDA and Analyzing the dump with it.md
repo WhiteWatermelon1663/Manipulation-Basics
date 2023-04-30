@@ -52,7 +52,7 @@ And press "Apply" and "Ok".
 Now you got rid of the cringe white theme, you can check if you have the sigmaker plugin installed, 
 by going to Edit > Plugins > SigMaker.
 
-![image](https://user-images.githubusercontent.com/132128937/235344494-e914dc40-48fd-4a75-90ff-eb52f188d004.png)
+![image](https://user-images.githubusercontent.com/132128937/235351445-a4c19ccf-b009-4d02-a409-c2e916653eba.png)
 
 Now click on "SigMaker" and a window like this should pop up:
 
