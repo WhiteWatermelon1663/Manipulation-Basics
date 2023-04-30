@@ -1,6 +1,6 @@
 Sup!
 
-Dumping the game is eazy.
+Dumping the game is easy.
 
 Download the newest snapshot of x64dbg.
 
