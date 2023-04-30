@@ -1,4 +1,4 @@
-Sup
+Sup!
 
 Analyzing the dump with IDA is easy.
 
@@ -64,8 +64,28 @@ because text view is simply better.
 
 ![image](https://user-images.githubusercontent.com/132128937/235345045-35b25f19-f0ac-4100-9848-0f6461b48d28.png)
 
+Now lets make the opcodes visible, by going to Options > General... > Disassembly > Number of opcode bytes (non-graph) and set it to 10
+
+![image](https://user-images.githubusercontent.com/132128937/235348915-88bbbe84-cadc-4d9e-941a-fe4dbf061a04.png)
+
+![image](https://user-images.githubusercontent.com/132128937/235348979-b8f4e23e-83f3-4c00-9054-251d2f015119.png)
 
 Now wait until this says Idle.
 
 ![image](https://user-images.githubusercontent.com/132128937/235344733-4499c26d-3ffc-424e-9d70-3b22e31c33b1.png)
 
+It should look like this
+
+![image](https://user-images.githubusercontent.com/132128937/235348657-4579888f-9d53-4d36-b4a3-94246019d1c1.png)
+
+Then press Ctrl + W to save the database.
+
+And if you exit IDA, then always pack the database, like this:
+
+![image](https://user-images.githubusercontent.com/132128937/235348698-c9ceeb7e-e292-4474-b539-46251a30e47c.png)
+
+And if you want to open the dump again in IDA, then open it from the "GTA5_dump.exe.i64" file.
+
+![image](https://user-images.githubusercontent.com/132128937/235348794-7346ed03-4132-4648-8b66-cfea0ac586fa.png)
+
+So that is the basics of analyzing the game dump.
