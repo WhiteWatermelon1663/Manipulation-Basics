@@ -6,8 +6,8 @@ Download the newest snapshot of x64dbg.
 
 x64dbg: https://x64dbg.com/
 
-<span style="color:red;">MAKE SURE YOU DONT HAVE ANY MOD MENUS INJECTED! THEY WILL CLOSE IF YOU RUN X64DBG.</span>
-<span style="color:red;">X64DBG IS CONSIDERED AS A DEBUGGER TOOL AND MENUS DO NOT LIKE THAT!</span>
+MAKE SURE YOU DONT HAVE ANY MOD MENUS INJECTED! THEY WILL CLOSE IF YOU RUN X64DBG.<br>
+X64DBG IS CONSIDERED AS A DEBUGGER TOOL AND MENUS DO NOT LIKE THAT!
 
 Now you can run x64dbg as administrator.
 
