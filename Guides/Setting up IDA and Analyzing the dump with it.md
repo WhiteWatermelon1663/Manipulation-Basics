@@ -69,7 +69,7 @@ Now lets make the opcodes visible, by going to Options > General... > Disassembl
 
 ![image](https://user-images.githubusercontent.com/132128937/235348979-b8f4e23e-83f3-4c00-9054-251d2f015119.png)
 
-Now you just need to wait until the AU(Autoanalysis Update) says "idle".
+Now you just need to wait until the its AU: idle
 
 ![image](https://user-images.githubusercontent.com/132128937/235344733-4499c26d-3ffc-424e-9d70-3b22e31c33b1.png)
 
