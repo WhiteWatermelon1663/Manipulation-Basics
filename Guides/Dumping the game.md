@@ -18,10 +18,8 @@ if you ran x96dbg.exe, then choose x64dbg mode.
 
 Also say yes to the questions on first launch of x64dbg.
 
-If you dont have the game running, then start it and be in <span style="color:red;">SINGEL PLAYER</span>
+If you dont have the game running, then start it and be in **SINGEL PLAYER**
 
-<span style="color:red;">MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!</span> <br>
-<span style="color:red;">MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!</span> <br>
-<span style="color:red;">MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!</span> <br>
-
-<span style="color:blue">some *blue* text</span>.
+MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!<br>
+MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!<br>
+MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!<br>
