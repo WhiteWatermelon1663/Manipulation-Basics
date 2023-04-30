@@ -139,9 +139,11 @@ Then you will need to calculate the offset. I will show you the easiest way with
 
 The spot where you can see "START" is the start of the signature the sigmaker made.
 
-Get the Y part of the address, here it is 7FF686FE1F4D,
-Get the X part of the address, here it is 7FF686FE1F13,
-Get the Z part of bytes, here it is 3 (because "4C 8D 0D" is 3 bytes)
+<ul>
+  <li>Get the Y part of the address, here it is 7FF686FE1F4D</li>
+  <li>Get the X part of the address, here it is 7FF686FE1F13</li>
+  <li>Get the Z part of bytes, here it is 3 (because "4C 8D 0D" is 3 bytes)</li>
+</ul>
 
 Subract Y - X in hex, wich is 7FF686FE1F4D - 7FF686FE1F13 = 3A
 
