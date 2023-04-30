@@ -89,7 +89,7 @@ Selected the "Dec" mode.
 
 ![image](https://user-images.githubusercontent.com/132128937/235355045-e18ab9c9-556b-43a5-a64c-85d398df27b6.png)
 
-And type 37, to get the hex number 25. Dont forget to add the 0x infront of it!
+And type 37, to get the hex number 25
 
 ![image](https://user-images.githubusercontent.com/132128937/235355103-accd8932-65b9-4e98-824b-1edad03b10f7.png)
 
