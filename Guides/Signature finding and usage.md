@@ -4,7 +4,7 @@ Finding signatures is easy!
 
 But some information about the signatures before we start.
 
-People often say sig, patterns or signatures.
+People often say sig(s), patterns or signatures.
 
 Signatures are specific patterns in code. You can imagine it like as morse code. If you would have a word in morse code, it has a specific pattern.
 For example, the word "megaballs" in morse is "-- . --. .- -... .- .-.. .-.. ..." each character has it's own pattern, 
