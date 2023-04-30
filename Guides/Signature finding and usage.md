@@ -157,7 +157,7 @@ So the distance between the pattern start address and the end of the address is 
 So now you can add the 61 to the scanned pattern.
 
 ```lua
-local a = g_memory.scan_pattern("48 8D 0D ? ? ? ? B2 01 E8 ? ? ? ? BB ? ? ? ? ")
+local a = g_memory.scan_pattern("48 8D 0D ? ? ? ? B2 01 E8 ? ? ? ? BB ? ? ? ?")
 g_logger.log_info(a)
 local b = g_memory.rip(a + 0x3D)
 g_logger.log_info(b)
