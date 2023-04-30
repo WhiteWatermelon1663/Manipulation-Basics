@@ -23,3 +23,23 @@ If you dont have the game running, then start it and be in **SINGEL PLAYER**
 MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!<br>
 MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!<br>
 MAKE SURE YOU ARE IN SINGEL PLAYER!!! DONT DO IT IN ONLINE!<br>
+
+Now click this little "S" icon at the top.
+
+![Screenshot 2023-04-30 105657](https://user-images.githubusercontent.com/132128937/235342321-f639c69e-da7d-44a4-b314-2039615b99a5.png)
+
+Now click this drop down box.
+
+![image](https://user-images.githubusercontent.com/132128937/235342351-be184f28-c564-4f9a-9f01-517b658e3b0d.png)
+
+Now find "GTA5.exe"
+
+And press "Dump"
+
+![image](https://user-images.githubusercontent.com/132128937/235342433-7f0c2edd-0994-4563-97fc-09b696fdf012.png)
+
+Now you need to save the dump somewhere, where you can access later, when you are going to analyze the dump.
+
+Then you can close x64dbg.exe.
+
+Thats the basics of dumping the game.
