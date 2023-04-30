@@ -11,7 +11,7 @@ Go and download IDA Freeware.
 
 IDA Freeware: https://hex-rays.com/ida-free/#download
 
-And download the sigmaker plugins.
+And download the sigmaker plugins. (you will need this later, but in this guide)
 
 Sigmaker: https://github.com/WhiteWatermelon1663/Manipulation-Basics/tree/main/Guide%20Resources/Sigmaker
 
@@ -58,3 +58,14 @@ by goind to Edit > Plugins > SigMaker.
 Now click on "SigMaker" and a window like this should pop up:
 
 ![image](https://user-images.githubusercontent.com/132128937/235344532-dc7726b0-ca5b-44d0-a763-d2f6b7b55bdf.png)
+
+And if you have this goofy ahh "Graph Mode" then you can go to "Text View" by right clicking somewhere and pressing "Text view",
+because text view is simply better.
+
+![image](https://user-images.githubusercontent.com/132128937/235345045-35b25f19-f0ac-4100-9848-0f6461b48d28.png)
+
+
+Now wait until this says Idle.
+
+![image](https://user-images.githubusercontent.com/132128937/235344733-4499c26d-3ffc-424e-9d70-3b22e31c33b1.png)
+
