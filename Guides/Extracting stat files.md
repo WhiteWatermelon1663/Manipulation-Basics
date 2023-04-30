@@ -13,7 +13,7 @@ Now you select "Windows" from "Grand Theft Auto V", and let it do its job.
 
 ![image](https://user-images.githubusercontent.com/132128937/235314844-8e50dbbb-b455-4eb9-8993-1054b8e348af.png)
 
-If OpenIV stops responing and freezes, you can just try again.
+If OpenIV stops responding and freezes, you can just try again.
 
 Now you should be on this window, but yours may differ, doesent really matter.
 
@@ -39,7 +39,7 @@ And you can delete all the files that have the size of 1kb, because they are emp
 
 Now you are left with some files, they contain all of the stats that you will ever need.
 
-I reccomend you read thru the "READ THIS BEFORE STARTING" that "mpstatssetup(1).xml" typically has.
+I recomend you read thru the "READ THIS BEFORE STARTING" that "mpstatssetup(1).xml" typically has.
 If you cant find it, I left it in:
 https://github.com/WhiteWatermelon1663/Manipulation-Basics/blob/main/Guide%20Resources/Stat%20Files/Stat%20File%20Read%20Me.md
 
